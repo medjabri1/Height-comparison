@@ -21,16 +21,31 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: #121234;
+    padding: 0 40px;
 }
 
 .container .header .title {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: 2px;
     word-spacing: 4px;
     color: #F7F7F7 !important;
+}
+
+.container .header .shapesNbr label {
+    color: #F7F7F7 !important;
+}
+
+.container .header .shapesNbr input {
+    font-size: 1rem;
+    color: #121234;
+    margin: 7px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 8px;
+    border: 1px solid #12123433;
 }
 
 .container .body {
@@ -69,6 +84,7 @@ body {
     text-align: center;
     padding: 4px;
     border: 1px solid #12123433;
+    border-radius: 8px;
 }
 
 .container .body .item .height .heightRange {

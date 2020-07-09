@@ -12,14 +12,19 @@
 
         <div class="header">
             <h2 class="title">Height Comparison tool</h2>
+
+            <div class="shapesNbr">
+                <label>Shapes number</label>
+                <input type="number" value="2" max="5" min="2" onchange="nbrChange(this)"/>
+            </div>
         </div>
 
         <div class="body">
 
             <div class="item">
                 <div class="height">
-                    <input type="number" class="heightText" value="195" max="195" min="120"/>
-                    <input type="range" min="120" max="195" value="195" class="heightRange">
+                    <input type="number" class="heightText" value="195" max="195" min="120" onchange="textChange(this)"/>
+                    <input type="range" min="120" max="195" value="195" class="heightRange" onchange="rangeChange(this)">
                 </div>
 
                 <img src="./imgs/man-shape.svg" alt="Man Body Shape" class="shapeImg">
@@ -27,8 +32,8 @@
 
             <div class="item">
                 <div class="height">
-                    <input type="number" class="heightText" value="195" max="195" min="120"/>
-                    <input type="range" min="120" max="195" value="195" class="heightRange">
+                    <input type="number" class="heightText" value="195" max="195" min="120" onchange="textChange(this)"/>
+                    <input type="range" min="120" max="195" value="195" class="heightRange" onchange="rangeChange(this)">
                 </div>
                 
                 <img src="./imgs/man-shape.svg" alt="Man Body Shape" class="shapeImg">
