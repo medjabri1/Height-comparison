@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    color: #121234 !important;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container .header {
+    height: 80px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #121234;
+}
+
+.container .header .title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    color: #F7F7F7 !important;
+}
+
+.container .body {
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container .body .item {
+    height: 100%;
+    width: 100%;
+    max-width: 190px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .body .item .height {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .body .item .height .heightText {
+    font-size: 1.5rem;
+    margin: 20px;
+    color: #121234;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    border: 1px solid #12123433;
+}
+
+.container .body .item .height .heightRange {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container .body .item .shapeImg {
+    position: relative;
+    bottom: 0;
+}
